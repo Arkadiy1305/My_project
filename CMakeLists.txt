@@ -21,5 +21,8 @@ add_executable (My_project "main.cpp" )
 add_subdirectory(external/glfw)
 target_link_libraries(My_project glfw)
 
+add_subdirectory(external/glad)
+target_link_libraries(My_project glad)
+
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
